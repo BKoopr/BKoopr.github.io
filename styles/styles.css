@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+html, body, html * {
+	background-color: #ECECEC;
+	font-family: Roboto, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* header styles */
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.main-heading {
+	padding: 50px 0px 40px 40px;
+	margin-left:20px;
+}
+
+.header a {
+	color: black;
+}
+
+.header a:link {
+	text-decoration: none;
+}
+
+.main-heading a:hover {
+	text-decoration: none;
+}
+
+.nav {
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 40px;
+	margin-right: 20px;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 40px 40px;
+	margin-right: 25px;
+}
+
+.nav-list a:hover {
+	box-shadow: 0 0 5px rgba(33,33,33,.2);
+}
+
+
+/* about section stylings */
+
+.about {
+	position:  relative;
+	display: flex;
+	align-items: center;
+	width: 70%;
+	padding-left: 15%;
+}
+
+.about-description {
+	margin: 5em;
+	text-align: left;
+	float: left;
+}
+
+.about img {
+	float: right;
+}
+
+
+/* portfolio section stylings */
+
+.portfolio {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 70%;
+	padding-left: 15%;
+	margin-top: 235px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+}
+
+.portfolio img {
+	max-width: 600px;
+	height: auto;
+	display: block;
+	margin: auto;
+	border: 1px solid black;
+}
+
+
+/* footer section styling */
+.contact {
+	clear: both;
+	position: relative;
+	height: 80px;
+	width: 100%;
+	background-color: #DBDBDB;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact-links {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 50%;
+	background: none;
+	padding-left: 25%;
+}
+
+.contact-links a {
+	color: black;
+	background: none;
+	font-weight: 400;
+}
+
+.contact-links a:link {
+	text-decoration: none;
+}
+
+.contact-links a:hover {
+	box-shadow: 0 0 5px rgba(33,33,33,.2);
+}
+
+
+
+
+
+
+
+
+
